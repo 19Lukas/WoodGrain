@@ -1,11 +1,13 @@
+Modifies Gcode to create a wood grain pattery by changing the hotend temperature.
+
 Usage:
 
 - Get an stl from somewhere, slice it with your desired settings in cura.
 - Start Woodgrain.exe
-- Open the resulting .gcode file 
+- Open the .gcode file you got from cura.
 - Enter the minimum and max. temperature that should be used, 200/210 to 240 should be fine for most filaments.
-- Click "generate preview" until there is a pattern you like or enter a seed to generate a specific pattern. 
-- The bottom left shows the seed used, you can remember this to print different parts with the same pattern.
+- Click "generate preview" until there is a pattern you like, or enter a seed to generate a specific pattern. 
+- The bottom left shows the seed used, you can remember this to print different parts with the same pattern later.
 - Click on "Process File". For large files ( >40 Mb ) this may take a while.
 - Click "Write to file" to store the resulting gcode.
 - The textbox on the left allows you to check if "M104" messages were inserted after each ;LAYER comment. This gcode  message modifies the temperature
