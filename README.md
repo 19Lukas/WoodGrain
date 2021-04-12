@@ -17,3 +17,5 @@ Usage:
 Tested with Cura 3.8 and an Ender 3 Pro. 
 Made this because I was not happy with other options. This works well for me, but be carefull when using it, there are almost no sanity checks in place, so it might crash on some inputs.
 Requires Cura generated gcode, because cura adds lots of comments that make it easy to find layers. Not sure how other slicers do this but feel free to modify the code to suit your needs.
+
+![Interface](https://github.com/19Lukas/WoodGrain/blob/main/Pictures/UI.PNG?raw=true "Interface")
